@@ -1,0 +1,35 @@
+html {
+  font-size: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.Todo-list {
+  text-align: center;
+}
+
+.Todo-list button {
+  margin-right: 5px;
+}
+
+.Todo-list input {
+  margin-right: 5px;
+  width: 400px;
+  border-radius: 5px;
+  height: 40px;
+}
+
+.Todo-list__result {
+  background-color: black;
+}
+/*# sourceMappingURL=style.css.map */

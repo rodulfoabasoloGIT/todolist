@@ -1,0 +1,36 @@
+html{
+    font-size: 100%;
+    box-sizing: border-box;
+
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+body {
+    margin:0;
+    padding:0;
+}
+
+.Todo-list{
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    // flex-direction: column;
+    text-align:center;
+    // height: 100vh;
+     button {
+       margin-right: 5px;
+    }
+    input {
+        margin-right: 5px;
+         width: 400px;
+         border-radius: 5px;
+        height: 40px;
+    }
+    &__result {
+        background-color: black;
+    }
+}
+
